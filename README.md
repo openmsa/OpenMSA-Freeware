@@ -49,7 +49,7 @@ configure eth0 with an address from your network:
 
 ![install_ip_config.png](Images/OpenMSA_installation_ifconfig.png)
 
-and try to access [http://ip_configured:3577/config.xml] (socconfig/b5ty9uvh4)
+and try to access http://ip_configured:3577/config.xml (login:socconfig password:b5ty9uvh4)
 
 Then follow the instructions about the online configuration tool below
 
