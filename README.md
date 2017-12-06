@@ -47,16 +47,37 @@ The following steps explain how to configure the network interface eth0 in order
 
 configure eth0 with an address from your network:
 
-[[/Images/OpenMSA_installation_ifconfig.png]]
+![install_ip_config.png](Images/OpenMSA_installation_ifconfig.png)
 
-and try to access [http://ip_configured:3577/config.xml] (socconfig/b5ty9uvh4)
+and try to access http://ip_configured:3577/config.xml (login:socconfig password:b5ty9uvh4)
 
 Then follow the instructions about the online configuration tool below
 
 ### Online configuration tool
 
 This is the configuration method for the OpenMSA freeware.
-access: http://w.x.y.z:3577/config.xml (socconfig/b5ty9uvh4) the access is only available through eth0 (maintenance interface). 
+access: http://w.x.y.z:3577/config.xml (socconfig/b5ty9uvh4) 
+the access is only available through eth0 (maintenance interface). 
+
+*eth0 is the interface dedicated to maintenance 
+*eth1 is the interface dedicated to device management
+
+![UBIqube_SOC_Configurator_1.png](Images/UBIqube_SOC_Configurator_1.png)
+
+![UBIqube_SOC_Configurator_2.png](Images/UBIqube_SOC_Configurator_2.png)
+
+![UBIqube_SOC_Configurator_3.png](Images/UBIqube_SOC_Configurator_3.png)
+
+![UBIqube_SOC_Configurator_4.png](Images/UBIqube_SOC_Configurator_4.png)
+
+![UBIqube_SOC_Configurator_5.png](Images/UBIqube_SOC_Configurator_5.png)
+
+![UBIqube_SOC_Configurator_6.png](Images/UBIqube_SOC_Configurator_6.png)
+
+![UBIqube_SOC_Configurator_7.png](Images/UBIqube_SOC_Configurator_7.png)
+
+
+
 
 ## OpenMSA activation
 TODO write the doc
