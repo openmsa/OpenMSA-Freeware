@@ -47,7 +47,7 @@ The following steps explain how to configure the network interface eth0 in order
 
 configure eth0 with an address from your network:
 
-[[/Images/OpenMSA_installation_ifconfig.png]]
+!(/Images/OpenMSA_installation_ifconfig.png)
 
 and try to access [http://ip_configured:3577/config.xml] (socconfig/b5ty9uvh4)
 
