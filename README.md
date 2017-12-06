@@ -59,21 +59,25 @@ This is the configuration method for the OpenMSA freeware.
 access: http://w.x.y.z:3577/config.xml (socconfig/b5ty9uvh4) 
 the access is only available through eth0 (maintenance interface). 
 
-*eth0 is the interface dedicated to maintenance 
-*eth1 is the interface dedicated to device management
+* eth0 is the interface dedicated to maintenance 
+* eth1 is the interface dedicated to device management
 
+#### OpenMSA information
 ![UBIqube_SOC_Configurator_1.png](Images/UBIqube_SOC_Configurator_1.png)
 
+#### Company information
 ![UBIqube_SOC_Configurator_2.png](Images/UBIqube_SOC_Configurator_2.png)
 
+#### Management interface configuration
 ![UBIqube_SOC_Configurator_3.png](Images/UBIqube_SOC_Configurator_3.png)
 
+#### Maintenance interface configuration
 ![UBIqube_SOC_Configurator_4.png](Images/UBIqube_SOC_Configurator_4.png)
 
-![UBIqube_SOC_Configurator_5.png](Images/UBIqube_SOC_Configurator_5.png)
-
+#### SMTP and DNS configuration
 ![UBIqube_SOC_Configurator_6.png](Images/UBIqube_SOC_Configurator_6.png)
 
+#### Alarm and event configuration
 ![UBIqube_SOC_Configurator_7.png](Images/UBIqube_SOC_Configurator_7.png)
 
 
