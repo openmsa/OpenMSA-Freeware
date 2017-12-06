@@ -93,7 +93,7 @@ To install the license you must be connected as a privileged administrator (ncro
 
 As an privilege administrator, click on the MSActiavtor setting icon on the top 
 
-(Images/portal_settings.png)
+![portal_settings.png](Images/portal_settings.png)
 
 Clicking on this icon, you will access the system management UI where the license management is.
 
