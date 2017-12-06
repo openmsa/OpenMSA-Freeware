@@ -59,25 +59,56 @@ This is the configuration method for the OpenMSA freeware.
 access: http://w.x.y.z:3577/config.xml (socconfig/b5ty9uvh4) 
 the access is only available through eth0 (maintenance interface). 
 
-*eth0 is the interface dedicated to maintenance 
-*eth1 is the interface dedicated to device management
+* eth0 is the interface dedicated to maintenance 
+* eth1 is the interface dedicated to device management
 
+#### OpenMSA information
 ![UBIqube_SOC_Configurator_1.png](Images/UBIqube_SOC_Configurator_1.png)
 
+#### Company information
 ![UBIqube_SOC_Configurator_2.png](Images/UBIqube_SOC_Configurator_2.png)
 
+#### Management interface configuration
 ![UBIqube_SOC_Configurator_3.png](Images/UBIqube_SOC_Configurator_3.png)
 
+#### Maintenance interface configuration
 ![UBIqube_SOC_Configurator_4.png](Images/UBIqube_SOC_Configurator_4.png)
 
-![UBIqube_SOC_Configurator_5.png](Images/UBIqube_SOC_Configurator_5.png)
-
+#### SMTP and DNS configuration
 ![UBIqube_SOC_Configurator_6.png](Images/UBIqube_SOC_Configurator_6.png)
 
+#### Alarm and event configuration
 ![UBIqube_SOC_Configurator_7.png](Images/UBIqube_SOC_Configurator_7.png)
 
-
-
+#### Run the configuration
+choose the option to apply configuration and reboot.
+The configuration will take around 5-10 minutes depending on the resources (CPU/Mem) allocated to the OpenMSA 
 
 ## OpenMSA activation
-TODO write the doc
+### Install the evaluation license file 
+
+The evaluation license file can be downloaded from the UBiqube community partner portal.
+
+To install the license you must be connected as a privileged administrator (ncroot) on the new portal.
+
+As an privilege administrator, click on the MSActiavtor setting icon on the top 
+
+![portal_settings.png](Images/portal_settings.png)
+
+Clicking on this icon, you will access the system management UI where the license management is.
+
+click on upload and select your file.
+
+(Image/License_upload.png)
+
+Once uploaded, and before being really installed, the MSA will show you the certificate information like number of devices manageable and end of support time.
+Checks theses informations and if this is ok for you, apply.
+
+The apply dialog box look like this:
+
+(Image/License_use_3.png)
+
+The updated UI should show the actuall license information
+
+(Image/License_use_4.png)
+
