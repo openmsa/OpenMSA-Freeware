@@ -99,16 +99,14 @@ Clicking on this icon, you will access the system management UI where the licens
 
 click on upload and select your file.
 
-(Image/License_upload.png)
-
 Once uploaded, and before being really installed, the MSA will show you the certificate information like number of devices manageable and end of support time.
 Checks theses informations and if this is ok for you, apply.
 
 The apply dialog box look like this:
 
-(Image/License_use_3.png)
+![License_use_3.png](Images/License_use_3.png)
 
 The updated UI should show the actuall license information
 
-(Image/License_use_4.png)
+![License_use_4.png](Images/License_use_4.png)
 
