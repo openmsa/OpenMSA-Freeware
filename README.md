@@ -49,8 +49,14 @@ configure eth0 with an address from your network:
 
 [[/Images/OpenMSA_installation_ifconfig.png]]
 
-and try to access http://ip_configured:3577/config.xml (socconfig/b5ty9uvh4)
+and try to access [http://ip_configured:3577/config.xml] (socconfig/b5ty9uvh4)
 
-Then follow the instructions about the online configuration tool 
+Then follow the instructions about the online configuration tool below
+
+### Online configuration tool
+
+This is the configuration method for the OpenMSA freeware.
+access: http://w.x.y.z:3577/config.xml (socconfig/b5ty9uvh4) the access is only available through eth0 (maintenance interface). 
+
 ## OpenMSA activation
 TODO write the doc
