@@ -93,23 +93,22 @@ To install the license you must be connected as a privileged administrator (ncro
 
 As an privilege administrator, click on the MSActiavtor setting icon on the top 
 
-[Images/portal_settings.png]
+(Images/portal_settings.png)
 
 Clicking on this icon, you will access the system management UI where the license management is.
 
 click on upload and select your file.
 
-[Image/License_upload.png]
-
+(Image/License_upload.png)
 
 Once uploaded, and before being really installed, the MSA will show you the certificate information like number of devices manageable and end of support time.
 Checks theses informations and if this is ok for you, apply.
 
 The apply dialog box look like this:
 
-[Image/License_use_3.png]
+(Image/License_use_3.png)
 
 The updated UI should show the actuall license information
 
-[Image/License_use_4.png]
+(Image/License_use_4.png)
 
