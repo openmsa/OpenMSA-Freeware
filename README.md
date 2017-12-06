@@ -56,7 +56,8 @@ Then follow the instructions about the online configuration tool below
 ### Online configuration tool
 
 This is the configuration method for the OpenMSA freeware.
-access: http://w.x.y.z:3577/config.xml (socconfig/b5ty9uvh4) the access is only available through eth0 (maintenance interface). 
+access: http://w.x.y.z:3577/config.xml (socconfig/b5ty9uvh4) 
+the access is only available through eth0 (maintenance interface). 
 
 ## OpenMSA activation
 TODO write the doc
