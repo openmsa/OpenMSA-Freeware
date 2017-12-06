@@ -80,8 +80,36 @@ the access is only available through eth0 (maintenance interface).
 #### Alarm and event configuration
 ![UBIqube_SOC_Configurator_7.png](Images/UBIqube_SOC_Configurator_7.png)
 
-
-
+#### Run the configuration
+choose the option to apply configuration and reboot.
+The configuration will take around 5-10 minutes depending on the resources (CPU/Mem) allocated to the OpenMSA 
 
 ## OpenMSA activation
-TODO write the doc
+### Install the evaluation license file 
+
+The evaluation license file can be downloaded from the UBiqube community partner portal.
+
+To install the license you must be connected as a privileged administrator (ncroot) on the new portal.
+
+As an privilege administrator, click on the MSActiavtor setting icon on the top 
+
+[Images/portal_settings.png]
+
+Clicking on this icon, you will access the system management UI where the license management is.
+
+click on upload and select your file.
+
+[Image/License_upload.png]
+
+
+Once uploaded, and before being really installed, the MSA will show you the certificate information like number of devices manageable and end of support time.
+Checks theses informations and if this is ok for you, apply.
+
+The apply dialog box look like this:
+
+[Image/License_use_3.png]
+
+The updated UI should show the actuall license information
+
+[Image/License_use_4.png]
+
