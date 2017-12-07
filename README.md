@@ -1,6 +1,6 @@
 # How to install and activate the OpenMSA freeware
 ## OpenMSA installation
-###Interface configuration
+### Interface configuration
 
 Sometimes interfaces eth0 and eth1 are not visible. You have to edit the interface configuration file:
 <pre>
@@ -33,7 +33,7 @@ If an error occur:
 [root@SNOC]#reboot
 </pre>
 
-###Configure the OpenMSA
+### Configure the OpenMSA
 
 Once the OVA is installed, start the VM. You should see the OpenMSA services starting messages in the console.
 
