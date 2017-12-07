@@ -4,8 +4,8 @@
 
 Sometimes interfaces eth0 and eth1 are not visible. You have to edit the interface configuration file:
 <pre>
-[root@SNOC]#cd /etc/sysconfig/network-scripts
-[root@SNOC network-scripts]#vi ifcfg-eth0
+[root@OpenMSA]#cd /etc/sysconfig/network-scripts
+[root@OpenMSA network-scripts]#vi ifcfg-eth0
 </pre>
 remove reference to UUID and HWADDR the file should be like
 <pre>
@@ -24,13 +24,13 @@ Do the same with ifcfg-eth1
 
 Then you can activate interfaces:
 <pre>
-[root@SNOC network-scripts]# ifup ifcfg-eth0
-[root@SNOC network-scripts]# ifup ifcfg-eth1
+[root@OpenMSA network-scripts]# ifup ifcfg-eth0
+[root@OpenMSA network-scripts]# ifup ifcfg-eth1
 </pre>
 If an error occur:
 <pre>
-[root@SNOC]# echo "" > /etc/udev/rules.d/70-persistent-net.rules
-[root@SNOC]#reboot
+[root@OpenMSA]# echo "" > /etc/udev/rules.d/70-persistent-net.rules
+[root@OpenMSA]#reboot
 </pre>
 
 ### Configure the OpenMSA
