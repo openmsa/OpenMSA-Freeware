@@ -1,4 +1,18 @@
 # How to install and activate the OpenMSA freeware
+
+The OpenMSA Freeware is an evaluation/dev/test platform available
+as an .ova VM image which can be downloaded from the UBIqube portal.
+
+Please proceed with the free registration form in order to download
+a.) the .ova VM image file and b.) the .lic evaluation license file.
+The evaluation license is valid for 30 days and provides for 10 devices.
+
+The .lic file on the UBIqube download portal is updated daily, so a
+fresh license can be installed again as required for another 30 days.
+
+The root password for the .ova is: OpenMSA
+
+
 ## OpenMSA installation
 ### Interface configuration
 
